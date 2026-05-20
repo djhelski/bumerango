@@ -1,0 +1,17 @@
+[package]
+name = "bumerango"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+llvm-sys = "150"
+regex = "1"
+lazy_static = "1.4"
+
+[[bin]]
+name = "bumerang"
+path = "src/main.rs"
+
+[lib]
+name = "bumerango"
+path = "src/lib.rs"
